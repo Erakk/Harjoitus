@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
+import {Grid, Row, Col} from 'react-bootstrap';
 import './App.css';
 import InputField from './components/InputField';
 import InputMessage from './components/InputMessage';
+
+//import Field from './components/Field.js';
+//import Message from './components/Message.js';
 
 class App extends Component {
 
   constructor(props){
     super(props);
-
-    this.state = {
-      messages: [
-        {id: 0, text: "eka"},
-        {id: 1, text: "toka"}
-      ],
-      nextId: 3
-    }
 
     this.addMessage = this.addMessage.bind(this);
     this.removeMessage= this.removeMessage.bind(this);
