@@ -1,34 +1,30 @@
+
 .inputWalls{
     border-top: 3px solid #000000;
 }
 
 .btn{
-    outline: none;
-    box-shadow: none;
-    border-width: 2px;
-    border-radius: 3x;
-    border-style: solid;
     padding: 8px;
-    margin-left: 20px;
-    align-content: center;
+    margin-left: 10px;
+    color: rgb(73, 0, 245);
+    border-color: rgb(73, 0, 245);
+    border-radius: 3px;
+    background-color: white;
+    position: relative;
+    top: -35px;
     
 }
-
-.btn-primary {
-    color: rgb(73, 0, 245);
-    border-color: rgb(12, 211, 111);
-    background-color: transparent;
-}
-
-
 
 .txt-area-input   {
     border: 2px solid rgb(38, 2, 241);
     border-top: 2px solid rgb(38, 2, 241);
     border-bottom: 2px solid rgb(38, 2, 241);
     resize: none;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
     border-radius: 5px;
+    padding: 10px;
+    width: 350px;
     
  }
+
